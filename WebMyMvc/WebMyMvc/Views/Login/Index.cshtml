@@ -1,0 +1,51 @@
+﻿@model WebMyMvc.Models.ViewModels.UserLoginViewModel;
+@{
+    ViewData["Title"] = "登入會員";
+}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.all.min.js"></script>
+
+<div class="wow bounceInUp" style="margin-top:40px" data-wow-delay="0.5s">
+    <div class="container">
+        <label style="font-size:20px">@ViewBag.Message</label>
+        <div class="p-5 bg-light rounded contact-form">
+            <div class="row g-4">
+                <div class="col-12">
+                    <h1 class="display-5 mb-0">Log in as member!</h1>
+                </div>
+                <div class="col-md-6 col-lg-7">
+                    <p class="mb-4">會員登入</p>
+                    <form asp-action="SignIn" asp-controller="Login" method="post">
+                        <input type="email" class="w-100 form-control p-3 mb-4 border-primary bg-light" asp-for="Email" placeholder="請輸入電子信箱(必填)" required>
+                        <input type="password" class="w-100 form-control p-3 mb-4 border-primary bg-light" asp-for="Pwd" placeholder="請輸入密碼(必填)" required>
+                        <div>
+                            <button class="w-100 btn btn-primary form-control p-3 border-primary bg-primary rounded-pill" type="submit">登入</button>
+                        </div>
+                        <div style="display:flex; margin-top:10px">
+                            <a class="mb-4" asp-action="UserRegister" asp-controller="Login" style="margin-right:20px">註冊會員</a>
+                            <a class="mb-4" asp-action="ForgetPassword" asp-controller="Login">忘記密碼</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (ViewBag.Success != null)
+{
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: '會員登入成功',
+            text: '您的會員已成功登入！',
+            showConfirmButton: false,
+            timer: 3000 // 3秒後自動關閉
+        }).then(() => {
+            window.location.href = '/Home/Index';
+        });
+    </script>
+}
+
+

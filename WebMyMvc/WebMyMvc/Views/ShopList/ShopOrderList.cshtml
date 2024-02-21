@@ -1,0 +1,113 @@
+﻿@model IEnumerable<BussinessService.Models.ShopDataListModel>
+@{
+    ViewData["Title"] = "購物車結帳介面";
+}
+
+
+<div class="wow bounceInUp" style="margin-top:40px" data-wow-delay="0.5s">
+    <div class="p-5 bg-light rounded contact-form">
+        <div class="alert alert-warning alert-dismissible fade show" role="alert" style="color:black">
+            <strong>購物車結帳介面</strong>
+            @{
+                if (ViewBag.Message != null)
+                {
+                    <div class="alert alert-danger" role="alert">
+                        @ViewBag.Message.ToString()
+                    </div>
+                }
+            }
+        </div>
+        <div style="display:flex;width:100%">
+            @if (Model != null && Model.Count() > 0)
+            {
+                <div style="width:40%">
+                    <table class="table table-striped" style="color:black">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">產品名稱</th>
+                                <th scope="col">數量</th>
+                                <th scope="col">金額</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                foreach (var item in Model)
+                                {
+                                    if (item.ProductName != null)
+                                    {
+                                        <tr style="color:black">
+                                            <td><img src="@Url.Content(item.ProImagePath)" class="card-img-top card-img-top mx-auto" style="width:30px; height:30px;"></td>
+                                            <td>@item.ProductName</td>
+                                            <td>@item.Quantity</td>
+                                            <td>@item.TotalAmount</td>
+                                        </tr>
+                                    }
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div style="width:5%"></div>
+                <div style="width:55%">
+                    <table class="table table-striped" style="color:black">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">課程名稱</th>
+                                <th scope="col">課程時間</th>
+                                <th scope="col">人數</th>
+                                <th scope="col">金額</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                foreach (var item in Model)
+                                {
+                                    if (item.CourseName != null)
+                                    {
+                                        <tr style="color:black">
+                                            <td><img src="@Url.Content(item.CouImagePath)" class="card-img-top card-img-top mx-auto" style="width:30px; height:30px;"></td>
+                                            <td>@item.CourseName</td>
+                                            <td>@item.Quantity</td>
+                                            <td></td>
+                                            <td>@item.TotalAmount</td>
+                                        </tr>
+                                    }
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3">- 目前購物車車是空空的哦 -</td>
+                </tr>
+            }
+
+        </div>
+        <form asp-action="ShopOrderData" asp-controller="ShopList" methon="post">
+            @{
+                if (Model != null && Model.Count() > 0)
+                {
+                    var i = 0;
+                    foreach (var item in Model)
+                    {
+                        i = i + item.TotalAmount;
+                    }
+                    <div style="display:flex">
+                                             
+                        <lable style="font-size:25px;font-weight:700;margin-right:30px;color:black">
+                            總金額:@($" NT$ {i}.00 ")
+                        </lable>
+                        <button>訂單結帳去</button>
+                    </div>              
+                }         
+            }
+           
+        </form>
+    </div>
+</div>
+

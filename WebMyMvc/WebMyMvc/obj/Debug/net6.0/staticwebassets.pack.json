@@ -1,0 +1,569 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebMyMvc.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebMyMvc.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\css\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\B1.jpg",
+      "PackagePath": "staticwebassets\\images\\B1.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\B10.jpg",
+      "PackagePath": "staticwebassets\\images\\B10.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\B11.jpg",
+      "PackagePath": "staticwebassets\\images\\B11.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\B12.jpg",
+      "PackagePath": "staticwebassets\\images\\B12.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\B13.jpg",
+      "PackagePath": "staticwebassets\\images\\B13.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\B2.jpg",
+      "PackagePath": "staticwebassets\\images\\B2.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\B3.jpg",
+      "PackagePath": "staticwebassets\\images\\B3.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\B4.jpg",
+      "PackagePath": "staticwebassets\\images\\B4.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\B5.jpg",
+      "PackagePath": "staticwebassets\\images\\B5.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\B6.jpg",
+      "PackagePath": "staticwebassets\\images\\B6.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\B7.jpg",
+      "PackagePath": "staticwebassets\\images\\B7.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\B8.jpg",
+      "PackagePath": "staticwebassets\\images\\B8.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\B9.jpg",
+      "PackagePath": "staticwebassets\\images\\B9.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\C1.jpg",
+      "PackagePath": "staticwebassets\\images\\C1.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\C10.jpg",
+      "PackagePath": "staticwebassets\\images\\C10.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\C11.jpg",
+      "PackagePath": "staticwebassets\\images\\C11.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\C2.jpg",
+      "PackagePath": "staticwebassets\\images\\C2.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\C3.jpg",
+      "PackagePath": "staticwebassets\\images\\C3.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\C4.jpg",
+      "PackagePath": "staticwebassets\\images\\C4.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\C5.jpg",
+      "PackagePath": "staticwebassets\\images\\C5.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\C6.jpg",
+      "PackagePath": "staticwebassets\\images\\C6.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\C7.jpg",
+      "PackagePath": "staticwebassets\\images\\C7.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\C8.jpg",
+      "PackagePath": "staticwebassets\\images\\C8.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\C9.jpg",
+      "PackagePath": "staticwebassets\\images\\C9.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\D1.jpg",
+      "PackagePath": "staticwebassets\\images\\D1.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\D2.jpg",
+      "PackagePath": "staticwebassets\\images\\D2.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\D3.jpg",
+      "PackagePath": "staticwebassets\\images\\D3.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\D4.jpg",
+      "PackagePath": "staticwebassets\\images\\D4.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\DIY1.jpg",
+      "PackagePath": "staticwebassets\\images\\DIY1.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\DIY10.jpg",
+      "PackagePath": "staticwebassets\\images\\DIY10.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\DIY11.jpg",
+      "PackagePath": "staticwebassets\\images\\DIY11.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\DIY12.jpg",
+      "PackagePath": "staticwebassets\\images\\DIY12.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\DIY13.jpg",
+      "PackagePath": "staticwebassets\\images\\DIY13.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\DIY14.jpg",
+      "PackagePath": "staticwebassets\\images\\DIY14.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\DIY15.jpg",
+      "PackagePath": "staticwebassets\\images\\DIY15.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\DIY2.jpg",
+      "PackagePath": "staticwebassets\\images\\DIY2.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\DIY3.jpg",
+      "PackagePath": "staticwebassets\\images\\DIY3.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\DIY4.jpg",
+      "PackagePath": "staticwebassets\\images\\DIY4.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\DIY5.jpg",
+      "PackagePath": "staticwebassets\\images\\DIY5.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\DIY6.jpg",
+      "PackagePath": "staticwebassets\\images\\DIY6.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\DIY7.jpg",
+      "PackagePath": "staticwebassets\\images\\DIY7.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\DIY8.jpg",
+      "PackagePath": "staticwebassets\\images\\DIY8.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\DIY9.jpg",
+      "PackagePath": "staticwebassets\\images\\DIY9.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\E1.jpg",
+      "PackagePath": "staticwebassets\\images\\E1.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\E2.jpg",
+      "PackagePath": "staticwebassets\\images\\E2.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\E3.jpg",
+      "PackagePath": "staticwebassets\\images\\E3.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\E4.jpg",
+      "PackagePath": "staticwebassets\\images\\E4.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\E5.jpg",
+      "PackagePath": "staticwebassets\\images\\E5.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\E6.jpg",
+      "PackagePath": "staticwebassets\\images\\E6.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\E7.jpg",
+      "PackagePath": "staticwebassets\\images\\E7.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\E8.jpg",
+      "PackagePath": "staticwebassets\\images\\E8.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\P1.jpg",
+      "PackagePath": "staticwebassets\\images\\P1.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\P2.jpg",
+      "PackagePath": "staticwebassets\\images\\P2.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\P3.jpg",
+      "PackagePath": "staticwebassets\\images\\P3.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\P4.jpg",
+      "PackagePath": "staticwebassets\\images\\P4.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\images\\P5.jpg",
+      "PackagePath": "staticwebassets\\images\\P5.jpg"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "PackagePath": "staticwebassets\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\lightbox\\images\\close.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\close.png"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\lightbox\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\lightbox\\images\\next.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\next.png"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\lightbox\\images\\prev.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\prev.png"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "D:\\天使蠟燭專案\\WebMyMvc\\WebMyMvc\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebMyMvc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebMyMvc.props",
+      "PackagePath": "build\\WebMyMvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebMyMvc.props",
+      "PackagePath": "buildMultiTargeting\\WebMyMvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebMyMvc.props",
+      "PackagePath": "buildTransitive\\WebMyMvc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

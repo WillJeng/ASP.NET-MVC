@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "訂單資料填寫";
+}
+<div class="wow bounceInUp" style="margin-top:40px" data-wow-delay="0.5s">
+    <div class="p-5 bg-light rounded contact-form">
+        <div class="col-md-6 col-lg-7">
+            <p class="mb-4">會員註冊</p>
+            <form asp-action="Register" asp-controller="Login" method="post">
+                <input type="text" class="w-100 form-control p-3 mb-4 border-primary bg-light" placeholder="請輸入姓名(必填)" required>
+                <input type="number" class="w-100 form-control p-3 mb-4 border-primary bg-light" placeholder="請輸入連絡電話">
+                <input type="email" class="w-100 form-control p-3 mb-4 border-primary bg-light" placeholder="請輸入電子信箱(必填)" required>
+                <input type="password" class="w-100 form-control p-3 mb-4 border-primary bg-light" placeholder="請輸入密碼(必填)" required>
+                <input type="password" class="w-100 form-control p-3 mb-4 border-primary bg-light" placeholder="請再次輸入密碼(必填)" required>
+                <div>
+                    <button class="w-100 btn btn-primary form-control p-3 border-primary bg-primary rounded-pill" type="submit">確認送出</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+

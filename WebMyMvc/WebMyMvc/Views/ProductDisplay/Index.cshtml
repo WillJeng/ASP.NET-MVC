@@ -1,0 +1,165 @@
+﻿@model IEnumerable<WebMyMvc.Models.ViewModels.UserProductViewModel>;
+@{
+    ViewData["Title"] = "產品清單";
+}
+<style>
+    .hidden-button {
+        display: none; /* 初始隱藏 */
+    }
+
+    .card:hover .hidden-button {
+        display: block; /* 滑鼠移過去時顯示 */
+    }
+</style>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.all.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<div class="wow bounceInUp" style="margin-top:40px" data-wow-delay="0.5s">
+    <div class="container">
+        <div class="p-5 bg-light rounded contact-form">
+            <div class="row g-4">
+                <div class="col-12">
+                    <h1 class="display-5 mb-0 text-center">Product List!</h1>
+                    <p></p>
+                </div>
+                @{
+                    if (Model != null && Model.Count() > 0)
+                    {
+                        var proString = "cs";
+                        var proString2 = "ccs";
+                        foreach (var item in Model)
+                        {
+                            //建立唯一ID值
+                            var productId = proString + item.Id;
+                            var shoppingId = proString2 + item.Id;
+                            var id = "quantityRange_" + item.Id;
+                            var quantityValueId = "quantityValue_" + item.Id;
+                            var discountPrice = item.DiscountPrice;
+                            var totalAmountId = "totalAmount_" + item.Id;
+                            var totalAmountIdHidden = "totalAmountIdHidden_" + item.Id;
+                            var quantityValueIdHidden = "quantityValueIdHidden_" + item.Id;
+
+                           <div class="col" style="margin-top:55px; width:300px; height:370px">
+                                   <div class="card" style="width: 18rem;">
+                                    <img src="@Url.Content(item.ImagePath)" class="card-img-top card-img-top mx-auto" style="width:250px; height:250px; margin-top:15px">
+                                            <div class="card-body">
+                                                <p class="card-text text-dark" style="font-weight:bold;">@item.ProductName <br><del style="text-decoration: line-through">(價格 : @item.Price $)</del><br>(優惠價格 : @item.DiscountPrice $)</p>
+                                            </div>
+                                        <input type="hidden" name="scheduleid" value="@item.Id">
+                                        <div style="display:flex">
+                                            <button type="button" class="hidden-button" style="margin-right:15px; font-weight:400"
+                                                    data-bs-toggle="modal" data-bs-target="#@productId">
+                                                描述
+                                            </button>
+                                            @{
+                                                if (Context.User.Identity.IsAuthenticated)
+                                                {
+                                                            <button type="button" class="hidden-button" style="font-weight:400"
+                                                                    data-bs-toggle="modal" data-bs-target="#@shoppingId">
+                                                                購物車
+                                                            </button>
+                                                }
+                                            }
+                                        </div>
+                                   </div>
+                                </div>
+
+                            //Modal 點擊顯示出描述視窗
+                                <div class="modal fade" id="@productId"
+                                    tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">@item.ProductName</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    @item.Description
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                            //Modal 點擊顯示出購物車視窗
+                                <div class="modal fade" id="@shoppingId"
+                                     tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">@item.Code</h1>
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">@item.ProductName</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div style="display:flex">                               
+                                            <img src="@Url.Content(item.ImagePath)" class="card-img-top card-img-top mx-auto" style="width:250px; height:250px; margin:15px 0px 15px 0px">
+                                            <form asp-action="ShopCar" asp-controller="ShopList" method="post">
+                                                <div style="color:black; font-weight:700; margin:15px 0px 0px 0px">
+                                                    <p><del style="text-decoration: line-through">原價:@item.Price</del></p>
+                                                    <p>優惠價格:@item.DiscountPrice</p>
+                                                    <label for="@id" class="form-label">選擇數量:</label>
+                                                    <input type="range" class="form-range" min="0" max="15" id="@id" value="0">
+                                                    <p>當前選擇的數量: <span id="@quantityValueId">0</span></p>
+                                                    <label id="@totalAmountId"></label><br>
+                                                    <button type="submit">加入購物清單</button>
+                                                </div>
+                                                <input type="hidden" name="productId" value="@item.Id" />
+                                                <input type="hidden" name="totalAmount" id="@totalAmountIdHidden" />
+                                                <input type="hidden" name="quantity" id="@quantityValueIdHidden" />
+                                            </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            //script數量滑動條變化
+                            <script>
+                                document.getElementById('@id').addEventListener('input', function () {
+                                    document.getElementById('@quantityValueId').innerText = this.value;
+                                    var quantityValue = parseInt(this.value);  //輸入值轉為整數
+                                    var discountPrice = parseFloat('@discountPrice'); // 價格轉為浮點數
+                                    var totalAmount = quantityValue * discountPrice; // 計算總金額
+                                    document.getElementById('@totalAmountId').innerText = 'NT $' + totalAmount.toFixed(2);
+                                    document.getElementById('@totalAmountIdHidden').value = totalAmount; //唯一ID值抓取總金額
+                                    document.getElementById('@quantityValueIdHidden').value = quantityValue; //唯一ID值抓取數量
+                                });
+                            </script>
+
+                            // script監聽隐藏後重置事件
+                            <script>
+                                var modal = new bootstrap.Modal(document.getElementById('@shoppingId'));
+                                modal._element.addEventListener('hidden.bs.modal', function () {
+                                    document.getElementById('@id').value = 1; // 滑動條重置為1
+                                    document.getElementById('@quantityValueId').innerText = 1; // 重置顯示的數量
+                                    document.getElementById('@totalAmountId').innerText = '@discountPrice'; // 重置總金額
+                                });
+                            </script>
+                        }
+                    }
+                    else
+                    {
+                                <div class="alert alert-light" role="alert">
+                                    - 此項目沒有商品上架 敬請期待 -
+                                </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (ViewBag.Success != null)
+{
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: '產品已加入購物車',
+            text: '您的產品已加入購物清單！',
+            showConfirmButton: false,
+            timer: 2000 // 2秒後自動關閉
+        }).then(() => {
+            window.location.href = '/ProductDisplay/Index';
+        });
+    </script>
+}

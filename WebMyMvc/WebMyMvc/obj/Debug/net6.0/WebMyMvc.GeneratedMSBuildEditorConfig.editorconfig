@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebMyMvc
+build_property.RootNamespace = WebMyMvc
+build_property.ProjectDir = D:\天使蠟燭專案\WebMyMvc\WebMyMvc\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\天使蠟燭專案\WebMyMvc\WebMyMvc
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/CourseDisplay/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlRGlzcGxheVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/Login/ForgetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRm9yZ2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/Login/UserRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVXNlclJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/MemberChange/ChangeData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyQ2hhbmdlXENoYW5nZURhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/MemberChange/ChangePwd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyQ2hhbmdlXENoYW5nZVB3ZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/ProductDisplay/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERpc3BsYXlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/ShopList/CouShopList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcExpc3RcQ291U2hvcExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/ShopList/ProShopList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcExpc3RcUHJvU2hvcExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/ShopList/ShopOrderData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcExpc3RcU2hvcE9yZGVyRGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/ShopList/ShopOrderList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcExpc3RcU2hvcE9yZGVyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/天使蠟燭專案/WebMyMvc/WebMyMvc/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-x104fon52q

@@ -1,0 +1,17 @@
+D:\天使蠟燭專案\WebMyMvc\DataService\bin\Debug\net6.0\DataService.deps.json
+D:\天使蠟燭專案\WebMyMvc\DataService\bin\Debug\net6.0\DataService.runtimeconfig.json
+D:\天使蠟燭專案\WebMyMvc\DataService\bin\Debug\net6.0\DataService.dll
+D:\天使蠟燭專案\WebMyMvc\DataService\bin\Debug\net6.0\DataService.pdb
+D:\天使蠟燭專案\WebMyMvc\DataService\bin\Debug\net6.0\BussinessService.dll
+D:\天使蠟燭專案\WebMyMvc\DataService\bin\Debug\net6.0\BussinessService.pdb
+D:\天使蠟燭專案\WebMyMvc\DataService\obj\Debug\net6.0\DataService.csproj.AssemblyReference.cache
+D:\天使蠟燭專案\WebMyMvc\DataService\obj\Debug\net6.0\DataService.GeneratedMSBuildEditorConfig.editorconfig
+D:\天使蠟燭專案\WebMyMvc\DataService\obj\Debug\net6.0\DataService.AssemblyInfoInputs.cache
+D:\天使蠟燭專案\WebMyMvc\DataService\obj\Debug\net6.0\DataService.AssemblyInfo.cs
+D:\天使蠟燭專案\WebMyMvc\DataService\obj\Debug\net6.0\DataService.csproj.CoreCompileInputs.cache
+D:\天使蠟燭專案\WebMyMvc\DataService\obj\Debug\net6.0\DataService.csproj.CopyComplete
+D:\天使蠟燭專案\WebMyMvc\DataService\obj\Debug\net6.0\DataService.dll
+D:\天使蠟燭專案\WebMyMvc\DataService\obj\Debug\net6.0\refint\DataService.dll
+D:\天使蠟燭專案\WebMyMvc\DataService\obj\Debug\net6.0\DataService.pdb
+D:\天使蠟燭專案\WebMyMvc\DataService\obj\Debug\net6.0\DataService.genruntimeconfig.cache
+D:\天使蠟燭專案\WebMyMvc\DataService\obj\Debug\net6.0\ref\DataService.dll

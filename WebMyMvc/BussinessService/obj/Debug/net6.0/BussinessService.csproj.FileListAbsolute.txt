@@ -1,0 +1,12 @@
+D:\天使蠟燭專案\WebMyMvc\BussinessService\bin\Debug\net6.0\BussinessService.deps.json
+D:\天使蠟燭專案\WebMyMvc\BussinessService\bin\Debug\net6.0\BussinessService.dll
+D:\天使蠟燭專案\WebMyMvc\BussinessService\bin\Debug\net6.0\BussinessService.pdb
+D:\天使蠟燭專案\WebMyMvc\BussinessService\obj\Debug\net6.0\BussinessService.csproj.AssemblyReference.cache
+D:\天使蠟燭專案\WebMyMvc\BussinessService\obj\Debug\net6.0\BussinessService.GeneratedMSBuildEditorConfig.editorconfig
+D:\天使蠟燭專案\WebMyMvc\BussinessService\obj\Debug\net6.0\BussinessService.AssemblyInfoInputs.cache
+D:\天使蠟燭專案\WebMyMvc\BussinessService\obj\Debug\net6.0\BussinessService.AssemblyInfo.cs
+D:\天使蠟燭專案\WebMyMvc\BussinessService\obj\Debug\net6.0\BussinessService.csproj.CoreCompileInputs.cache
+D:\天使蠟燭專案\WebMyMvc\BussinessService\obj\Debug\net6.0\BussinessService.dll
+D:\天使蠟燭專案\WebMyMvc\BussinessService\obj\Debug\net6.0\refint\BussinessService.dll
+D:\天使蠟燭專案\WebMyMvc\BussinessService\obj\Debug\net6.0\BussinessService.pdb
+D:\天使蠟燭專案\WebMyMvc\BussinessService\obj\Debug\net6.0\ref\BussinessService.dll

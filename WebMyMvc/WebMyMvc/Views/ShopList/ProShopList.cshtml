@@ -1,0 +1,81 @@
+﻿@model IEnumerable<BussinessService.Models.ShopDataListModel>
+@{
+    ViewData["Title"] = "產品購物清單";
+}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.all.min.js"></script>
+
+<div class="wow bounceInUp" style="margin-top:40px" data-wow-delay="0.5s">
+    <div class="p-5 bg-light rounded contact-form">
+        <div class="alert alert-warning alert-dismissible fade show" role="alert" style="color:black">
+            <strong>我的產品購物清單</strong>
+            @{
+                if (ViewBag.Message != null)
+                {
+                    <div class="alert alert-danger" role="alert">
+                        @ViewBag.Message.ToString()
+                    </div>
+                }
+            }
+        </div>
+
+        <table class="table table-striped" style="color:black">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">產品名稱</th>
+                    <th scope="col">數量</th>
+                    <th scope="col">總金額</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    if (Model != null && Model.Count() > 0)
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr style="color:black">
+                                <td><img src="@Url.Content(item.ProImagePath)" class="card-img-top card-img-top mx-auto" style="width:65px; height:65px;"></td>
+                                <td>@item.ProductName</td>
+                                <td>@item.Quantity</td>
+                                <td>@item.TotalAmount</td>
+                                <td>
+                                    <form asp-action="DelBooking" asp-controller="ShopList" method="post">
+                                        <input type="hidden" name="proShopId" value="@item.Id">
+                                        <button type="submit" class="btn btn-danger">刪除</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="3">- 目前購物車車是空空的哦 -</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+@if (ViewBag.Success != null)
+{
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: '刪除成功',
+            text: '您的產品已從購物清單刪除！',
+            showConfirmButton: false,
+            timer: 2000 // 2秒後自動關閉
+        }).then(() => {
+            window.location.href = '/ShopList/ProShopList';
+        });
+    </script>
+}
+
+
